@@ -1,0 +1,13 @@
+a=int(input("enter the no"))
+b=a
+sum=0
+while(a>0):
+    n=a%10
+    sum=sum+n*n*n
+    a=int(a/10)
+if b==sum:
+    print("the no. is armstrong no.")
+else:
+    print("it is not armstrong no.")
+    
+
