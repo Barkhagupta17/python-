@@ -1,0 +1,6 @@
+a=int(input("enter the no of termes u want in series"))
+l=[0,1]
+for b in range(2,a):
+    c=l[b-1]+l[b-2]
+    l.append(c)
+print(l)
