@@ -1,0 +1,19 @@
+a=int(input("enter  a no."))
+l=[a]
+print(l)
+while True:
+    sum=0
+    while(a>0):
+        a=a%10
+        sum=sum+a*a
+        a=a//10
+    a=sum
+    l.append(a)
+    if(a==1) :
+        print("it is happy no.")
+        break
+    elif(a==4):
+        print("it is not happy no.")
+        break
+print(l)
+        
