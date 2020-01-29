@@ -1,0 +1,27 @@
+a=int(input("enter  a no."))
+b=int(input("enter  another  no."))
+c=int(input("enter  one more no."))
+if a>b:
+    if a>c:
+        print("a is greatest",a)
+    elif a<c:
+        print("c is greatest",c)
+    else:
+        print("both a and c are equal and bigger than b",a)
+elif a<b:
+    if a>c:
+        print("b is greatest",b)
+    elif a<c:
+        if b>c: print("b is greatest",b)
+        elif b<c: print("c is greatest",c)
+        else: print ("both b and c are equal and greater than a",b)
+    else:
+        print("b is largest",b)
+else:
+    if a>c:
+         print("both a and b are equal and bigger than c",a)
+    elif a<c:
+        print("c is greatest",c)
+    else:
+        print("all no. are equal")
+        
